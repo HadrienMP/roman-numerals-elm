@@ -1,0 +1,7 @@
+{
+    "nixEnvSelector.nixFile": "${workspaceRoot}/flake.nix",
+    "editor.formatOnSave": true,
+    "elmLS.elmTestPath": "elm-test-rs",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Hack Nerd Font', 'monospace', monospace"
+}

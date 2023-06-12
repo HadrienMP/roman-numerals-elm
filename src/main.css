@@ -1,0 +1,21 @@
+p {
+    margin: 0;
+}
+
+main {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translateY(-50%) translateX(-50%);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#roman-birthyear {}
+
+#roman-birthyear .value {
+    font-weight: bold;
+    font-size: larger;
+}

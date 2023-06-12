@@ -1,0 +1,25 @@
+{
+  "name": "roman-numerals-elm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "start": "parcel src/index.html",
+    "test": "elm-test-rs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm-live": "^4.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-elm": "^2.9.2",
+    "elm": "^0.19.1-5",
+    "elm-tooling": "^1.14.0",
+    "parcel": "^2.9.2"
+  }
+}
