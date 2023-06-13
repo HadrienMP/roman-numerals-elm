@@ -27,9 +27,9 @@
             nodePackages.elm-test # to shut up the language server
             yarn
           ];
+          shellHook = ''
+            yarn install
+          '';
         };
-        shellHook = ''
-          yarn install
-        '';
       });
 }
